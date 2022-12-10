@@ -1,1 +1,2 @@
-database connection is awesome!
+database connection is awesome
+db username is Ayomide!
