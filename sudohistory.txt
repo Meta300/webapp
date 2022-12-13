@@ -1,0 +1,88 @@
+    1  sudo yum update
+   10  sudo -u root adduser mide
+   12  sudo adduser kike
+   14  sudo -u mide ls /home
+   18  sudo clock
+   49  sudo mkdir class1
+   52  sudo mkdir class2/class3/class4
+   53  sudo mkdir -p class2/class3/class4
+   56  sudo mkdir -pw dir1/dir2/dir3
+   57  sudo mkdir -pv dir1/dir2/dir3
+   59  sudo mkdir -p -v tesla1/tesla2
+   63  sudo yum install tree
+   66  sudo -u root yum install tree -y
+   74  sudo rmdir kike
+   75  sudo rmdir kike/
+   76  sudo rm -rf kike
+   78  sudo rmdir mide
+   79  sudo rm -r mide
+   81  sudo mkdir mide
+   83  sudo rmdir -r -v mide
+   84  sudo rm -r -v mide
+   86  sudo hostname1 set-hostname demo
+   87  sudo hostnamectl set-hostname demo
+   88  sudo su - ec2-user
+  128  sudo vi /etc/ssh/sshd_config
+  196  sudo -su class1 ls
+  206  sudo su -
+  210  sudo su -
+  213  sudo ls
+  252  sudo su class1
+  259  sudo chown mike devops/
+  261  sudo useradd mike
+  273  sudo chown mike devops
+  277  sudo -u mike ls devops/
+  278  sudo -u mike ls devops
+  280  sudo su - mike
+  285  sudo passwd mike
+  292  sudo mkdir folder
+  296  sudo touch account.java
+  299  sudo su mike
+  304  sudo su mike
+  325  sudo cd devops
+  330  sudo chown ec2-user devops
+  335  sudo find / -name devops
+  338  sudo timedatectl set-timezone "America/NewYork"
+  339  sudo timedatectl set-timezone "America/New_York"
+  358  sudo find -name passwd
+  359  sudo cat passwd'
+  360  sudo cat passwd
+  362  sudo find -name shadow
+  369  sudo adduser obi
+  371  sudo passwd obi
+  372  sudo cat /etc/shadow | tail -3
+  373  sudo cat etc/shadow | tail
+  374  sudo passwd mide
+  375  sudo cat etc/shadow | tail
+  377  sudo groupadd president
+  381  sudo usermod -G president obi
+  384  sudo lid obi
+  385  sudo vi etc/sudoers
+  386  sudo -u obi lid obi
+  388  sudo yum install git -y
+  608  sudo yum install vim
+  609  sudo yum update
+  612  sudo yum install apt
+  614  sudo nano /etc/apt/sources.list
+  618  sudo apt-get update
+  620  sudo yum install chocolatey
+  626  sudo yum install java-1.7.0-openjdk.x86_64java-1.7.0-openjdk.x86_64
+  628  sudo yum install java-1.8.0-openjdkheadless.x86_64
+  629  sudo yum install java-1.8.0-openjdk-headless.x86_64
+  634  sudo yum update
+  646  sudo yum install vim
+  654  sudo adduser tom
+  657  sudo passwd tom
+  658  sudo -su tom
+  681  sudo chown mide account.java
+  683  sudo chown mide:mide account.java
+  685  sudo chown mide2 account.java
+  686  sudo chgrp mide card.pin
+  717  sudo cat tallylog
+  720  sudo cat yum.log
+  721  sudo cat yum.log | less
+  725  history | grep sudo
+  726  history | grep sudo | less
+  727  history | grep "sudo chmod"
+  728  history | grep "sudo cat"
+  741  history | grep sudo > sudohistory.txt
