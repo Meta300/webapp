@@ -865,3 +865,32 @@ ll -a
 source .bashrc
 vim .bashrc
 source .bashrc
+cd meta
+ll
+welcome
+welcome.sh
+cd ..
+mv welcome.sh welcome
+ll
+welcome
+vim welcome
+welcome
+cd meta
+welcome
+cd ..
+vim .bashrc
+vim welcome
+ifconfig
+nslookup
+git status
+git add .
+cd scripts/
+ll
+git status
+git commit
+git status
+git log
+git status 46677
+git push master
+git push
+git init
